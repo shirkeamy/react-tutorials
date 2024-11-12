@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
       <div className="App">
-        <Header />
+        <Header email='email@example.com' name={'Dan Joe'} telephone={12345679845} />
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h2>{welcome}</h2>
